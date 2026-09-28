@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lingopeak</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+  <div class="app-container">
+    <header class="header">
+      <div class="user-info">
+        <h2 id="userName">👋 Xush kelibsiz</h2>
+        <span class="badge">Bepul</span>
+      </div>
+      <div class="progress-circle">
+        <span id="progressText">0%</span>
+      </div>
+    </header>
+
+    <div class="stats-grid">
+      <div class="stat-card">
+        <h3>2</h3>
+        <p>So'zlar</p>
+      </div>
+      <div class="stat-card">
+        <h3>0</h3>
+        <p>Tugallangan</p>
+      </div>
+      <div class="stat-card">
+        <h3>0</h3>
+        <p>Takrorlash</p>
+      </div>
+    </div>
+
+    <button class="main-btn" onclick="startLearning()">
+      📚 So'zlarni o'rganish &rarr;
+    </button>
+
+    <nav class="bottom-nav">
+      <button class="nav-item active">Bosh sahifa</button>
+      <button class="nav-item">So'zlar</button>
+      <button class="nav-item">Darslar</button>
+      <button class="nav-item">Grammatika</button>
+      <button class="nav-item">Profil</button>
+    </nav>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
